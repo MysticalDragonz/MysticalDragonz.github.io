@@ -18,6 +18,7 @@ p {
 
 body {
     margin: 0; /*gets rid of white space*/
+}
 
 ul {
     list-style-type: none; /*removes white space*/
