@@ -31,6 +31,8 @@ ul {
 li a {
     display: block;
     text-decoration:none;
+    color: darkviolet;
+    font-family: arial;
 }
 
 li a:hover {
