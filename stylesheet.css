@@ -1,5 +1,11 @@
+html {
+    height: 100% 
+}
+
 body {
     background-image: url("http://www.economicnoise.com/wp-content/uploads/2015/11/Butteryfly-Effect1.jpg?x84716");
+    background-position: center center;
+    background-size: cover;
 }
 
 h1 {
