@@ -10,16 +10,20 @@ p {
     color: indigo;
 }
 
+body {
+    margin: 0; /*gets rid of white space*/
 
 ul {
-    list-style-type: none;
+    list-style-type: none; /*removes white space*/
     background: AliceBlue;
     width: 100px;
-    padding: 0;
+    padding: 0; /*removes padding on the left*/
+    margin: 0;
 }
 
 li a {
     display: block;
+    text-decoration:none;
 }
 
 li a:hover {
