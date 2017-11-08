@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://i.pinimg.com/originals/aa/43/35/aa43351194ec992b7cc936f6d358b228.gif");
+    background-image: url(" https://i.pinimg.com/originals/aa/43/35/aa43351194ec992b7cc936f6d358b228.gif");
 }
 
 h1 {
@@ -8,4 +8,9 @@ h1 {
 
 p {
     color: indigo;
+}
+
+
+ul {
+    list-style-type: none;
 }
