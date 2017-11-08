@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <ul>
+           <li> text </li>
+           <li> more text </li>
+           <li> even more text </li>
+        </ul>
+    </body>
+ </html>
