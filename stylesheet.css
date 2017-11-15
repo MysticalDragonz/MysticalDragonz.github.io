@@ -22,7 +22,7 @@ body {
 
 ul {
     list-style-type: none; /*removes white space*/
-    background: AliceBlue;
+    background: White;
     width: 100px;
     padding: 0; /*removes padding on the left*/
     margin: 0;
@@ -31,7 +31,7 @@ ul {
 li a {
     display: block;
     text-decoration:none;
-    color: darkviolet;
+    color: Black;
     font-family: arial;
     padding: 10px;
     text-align: center;
