@@ -32,6 +32,7 @@ ul {
     width: 150px;
     padding: 0; /*removes padding on the left*/
     margin: 0;
+    border: 1px solid #555;
 }
 
 li a {
@@ -41,9 +42,14 @@ li a {
     font-family: arial;
     padding: 15px;
     text-align: center;
+    border-bottom: 1px solid #555;
 }
 
 li a:hover {
     background: black;
     color: white;
+}
+
+li:last-child {
+    border-bottom: none;
 }
