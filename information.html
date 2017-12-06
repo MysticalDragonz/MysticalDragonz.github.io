@@ -28,6 +28,23 @@ This concept was initially used in theories about weather prediction but later t
              
 <p> The butterfly effect can also be demonstrated by very simple systems. For example, the randomness of the outcomes of throwing dice depends on this characteristic to amplify small differences in initial conditions—the precise direction, thrust, and orientation of the throw—into significantly different dice paths and outcomes, which makes it virtually impossible to throw a dice exactly the same way twice. </p>
         
+<p> Recurrence, the approximate return of a system towards its initial conditions, together with sensitive dependence on initial conditions, are the two main ingredients for chaotic motion. They have the practical consequence of making complex systems, such as the weather, difficult to predict past a certain time range (approximately a week in the case of weather) since it is impossible to measure the starting atmospheric conditions completely accurately.
+
+A dynamical system displays sensitive dependence on initial conditions if points arbitrarily close together separate over time at an exponential rate.[2] The definition is not topological, but essentially metrical.
+
+If M is the state space for the map {\displaystyle f^{t}} f^{t}, then {\displaystyle f^{t}} f^{t} displays sensitive dependence to initial conditions if for any x in M and any δ > 0, there are y in M, with distance d(. , .) such that {\displaystyle 0<d(x,y)<\delta } 0<d(x,y)<\delta  and such that
+
+{\displaystyle d(f^{\tau }(x),f^{\tau }(y))>\mathrm {e} ^{a\tau }\,d(x,y)} d(f^{\tau }(x),f^{\tau }(y))>\mathrm {e} ^{a\tau }\,d(x,y)
+for some positive parameter a. The definition does not require that all points from a neighborhood separate from the base point x, but it requires one positive Lyapunov exponent.
+
+The simplest mathematical framework exhibiting sensitive dependence on initial conditions is provided by a particular parametrization of the logistic map:
+
+{\displaystyle x_{n+1}=4x_{n}(1-x_{n}),\quad 0\leq x_{0}\leq 1,} x_{n+1}=4x_{n}(1-x_{n}),\quad 0\leq x_{0}\leq 1,
+which, unlike most chaotic maps, has a closed-form solution:
+
+{\displaystyle x_{n}=\sin ^{2}(2^{n}\theta \pi )} x_{n}=\sin ^{2}(2^{n}\theta \pi )
+where the initial condition parameter {\displaystyle \theta } \theta  is given by {\displaystyle \theta ={\tfrac {1}{\pi }}\sin ^{-1}(x_{0}^{1/2})} \theta ={\tfrac {1}{\pi }}\sin ^{-1}(x_{0}^{1/2}). For rational {\displaystyle \theta } \theta , after a finite number of iterations {\displaystyle x_{n}} x_{n} maps into a periodic sequence. But almost all {\displaystyle \theta } \theta  are irrational, and, for irrational {\displaystyle \theta } \theta , {\displaystyle x_{n}} x_{n} never repeats itself – it is non-periodic. This solution equation clearly demonstrates the two key features of chaos – stretching and folding: the factor 2n shows the exponential growth of stretching, which results in sensitive dependence on initial conditions (the butterfly effect), while the squared sine function keeps {\displaystyle x_{n}} x_{n} folded within the range.</p>
+        
 <img src="https://i.pinimg.com/originals/aa/43/35/aa43351194ec992b7cc936f6d358b228.gif">
       </body>
 </html>
